@@ -1,0 +1,228 @@
+body{
+  background-image: url(../img/fondo.jpg);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+}
+h1{
+  color: #fff;
+}
+  ul {
+    list-style-type: none;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: #1766dd;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .atras{
+    background-color: rgb(0, 238, 255);
+  }
+  li a:hover {
+    background-color: rgba(30, 112, 206, 0.788);
+  }
+.boton1,
+.boton2,
+.boton3,
+.boton4{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    color: rgba(14, 98, 223, 0.884);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 0px;
+    text-align: center;
+    width: 20%;
+    text-decoration: none;
+    box-shadow: 0px 4px 0px #35b5dc;
+    background: rgb(85, 79, 79);
+    text-align: center;
+    margin-top: 10%;
+}
+.botones button{
+  width: 25%;
+}
+.botones input{
+  width: 25%;
+}
+.botones{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.grados button{
+  width: 25%;
+}
+.grados select {
+  width: 25%;
+}
+.grados input{
+  width: 25%;
+}
+.grados{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.triangulo input{
+  width: 25%;
+}
+.triangulo button{
+  width: 25%;
+}
+.triangulo{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.profes select{
+  width: 25%;
+}
+.profes button{
+  width: 25%;
+}
+.profes{
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.registro select{
+  width: 25%;
+}
+.registro input{
+  width: 25%;
+}
+.registro button{
+  width: 25%;
+}
+.registro{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cards{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+a:hover {
+    background-color: rgba(57, 90, 112, 0.856);
+  }
+
+
+label {
+    color: rgba(255, 255, 255, 0.884);
+    font-size: 25px;
+}
+
+
+input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 100%;
+  width: 60%;
+}
+.modal{
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: auto;
+  padding-top: 200px;
+  display: none;
+}
+
+.contenidoModal{
+  background-color: #FFFFFF;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  padding: 1rem;
+  animation-name: animarmodal;
+  animation-duration: 0.5s;
+}
+
+@keyframes animarmodal {
+  from {top: -300px; opacity: 0;}
+  to{top: 0; opacity: 1;}
+}
+.cerrarModal, 
+.cerrarModal2,
+.cerrarModal3,
+.cerrarModal4,
+.cerrarModal5,
+.cerrarModal6,
+.cerrarModal7,
+.cerrarModal8{
+  font-size: 2rem;
+  float: right; 
+  cursor: pointer; 
+
+}
+.contenidoModal{
+  background-color: #343a40;
+  color: #fff;
+}
+.contenidoModal h2{
+  background-color: #288de0;
+  color: #FFFFFF;
+  padding: 1rem 0;
+  text-align: center;
+  clear: both;
+}
+.paescri input{
+  width: 45%;
+}
+.paescri{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*------Validacion------*/
+
+.msm{
+  color: #5CCDFA;
+  font-size: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+.msm-error-visible{
+  visibility: visible;
+  opacity: 1;
+}
+/*-----Iconos-----*/
+.form-group-input{
+  position: relative;
+}
+.frm-icono{
+  position: absolute;
+  right: 1rem;
+  bottom: 1.8rem;
+  z-index: 100;
+  font-size: 16px;
+}
